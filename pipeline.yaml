@@ -5,7 +5,7 @@ node {
     def rtMaven
     
     stage ('Clone') {
-        git url: 'https://github.com/sandeepani2206/Repos.git'
+        git url: 'https://github.com/raja4dev/javasample.git'
     }
  
     stage ('Artifactory configuration') {
